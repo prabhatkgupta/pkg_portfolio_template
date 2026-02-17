@@ -33,7 +33,7 @@ Screenshots below follow the page from top to bottom.
 
 ![Blogs](assets/images/home/image3.png)
 
-**4. Technical expertise grid**
+**4. Technical expertise section**
 
 ![Technical expertise](assets/images/home/image4.png)
 
