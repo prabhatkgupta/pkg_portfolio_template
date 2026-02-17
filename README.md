@@ -64,4 +64,4 @@ portfolio-template/
 
 ---
 
-If this template helped you, please [star the repository](https://github.com/prabhatkgupta/pkg_portfolio_template) on GitHub and share it with friends who might find it useful.
+If this template helped you, please 🌟 [star the repository](https://github.com/prabhatkgupta/pkg_portfolio_template) on GitHub and share it with friends who might find it useful.
