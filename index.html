@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Your Name - Software Engineer</title>
+        <meta name="description" content="Software Engineer building scalable systems and clean code. Replace this with your own description." />
+        <link rel="shortcut icon" href="https://placehold.co/32x32/111827/fff?text=P" type="image/png" />
+        <link rel="icon" href="https://placehold.co/32x32/111827/fff?text=P" type="image/png" />
+
+        <!-- Open Graph - replace with your site url and image -->
+        <meta property="og:title" content="Your Name - Software Engineer" />
+        <meta property="og:description" content="Software Engineer building scalable systems and clean code." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://your-website.com" />
+        <meta property="og:image" content="" />
+
+        <link rel="stylesheet" href="./css/tailwind-build.css" />
+        <link rel="stylesheet" href="css/index.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body class="tw-flex tw-min-h-[100vh] tw-flex-col tw-bg-[#fff] tw-font-mono" style="overflow-x: hidden;">
+        <header class="tw-absolute tw-top-0 tw-z-20 tw-flex tw-h-[60px] tw-w-full tw-bg-opacity-0 tw-px-[5%] max-lg:tw-mr-auto max-lg:tw-px-4 lg:tw-justify-around">
+            
+            <div class="collapsible-header animated-collapse max-lg:tw-shadow-md" id="collapsed-header-items">
+                <div class="tw-flex tw-h-full tw-w-max tw-gap-5 tw-text-base tw-text-black max-lg:tw-mt-[30px] max-lg:tw-flex-col max-lg:tw-place-items-end max-lg:tw-gap-5 lg:tw-mx-auto lg:tw-place-items-center">
+                    <a class="header-links" href="#work">Work</a>
+                    <a class="header-links" href="#projects">Projects</a>
+                    <a class="header-links" href="#blogs">Blogs</a>
+                    <a class="header-links" href="https://drive.google.com/uc?export=download&id=1Ni3U70UCSXa8yPfABtg26pnRxYG2pYay" download="PKG_Template_Resume.pdf">Resume</a>
+                </div>
+                <div class="tw-mx-4 tw-flex tw-place-items-center tw-gap-[20px] tw-text-base max-md:tw-w-full max-md:tw-flex-col max-md:tw-place-content-center">
+                    <div class="tw-flex tw-gap-4 tw-items-center">
+                        <a href="https://github.com/yourusername" target="_blank" rel="noopener" aria-label="GitHub" class="tw-text-2xl tw-text-black hover:tw-text-gray-600 tw-transition-colors"><i class="bi bi-github"></i></a>
+                        <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener" aria-label="LinkedIn" class="tw-text-2xl tw-text-black hover:tw-text-gray-600 tw-transition-colors"><i class="bi bi-linkedin"></i></a>
+                        <a href="mailto:you@example.com" aria-label="Contact" class="tw-flex tw-h-[40px] tw-place-items-center tw-gap-2 tw-rounded-full tw-bg-black tw-p-1 tw-pl-4 tw-text-white">
+                            <span>Get in touch</span>
+                            <div class="tw-flex tw-h-[30px] tw-w-[30px] tw-place-content-center tw-place-items-center tw-rounded-full tw-bg-white tw-font-semibold tw-text-black"><i class="bi bi-arrow-up-right"></i></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <button class="bi bi-list tw-absolute tw-right-3 tw-top-3 tw-z-50 tw-text-3xl tw-text-black lg:tw-hidden" onclick="toggleHeader()" aria-label="menu" id="collapse-btn"></button>
+        </header>
+
+        <section id="about" class="tw-relative tw-flex tw-min-h-[100vh] tw-w-full tw-max-w-[100vw] tw-flex-col tw-overflow-hidden max-lg:tw-p-4 max-md:tw-mt-[50px]">
+            <div class="tw-flex tw-h-full tw-min-h-[100vh] tw-w-full tw-place-content-center tw-gap-6 tw-p-[5%] max-xl:tw-place-items-center max-lg:tw-flex-col">
+                <div class="tw-flex tw-flex-col tw-place-content-center">
+                    <div class="tw-flex tw-flex-wrap tw-text-6xl tw-font-bold tw-uppercase tw-leading-tight tw-gap-2 max-lg:tw-text-4xl max-md:tw-text-3xl max-md:tw-leading-tight">
+                        <span class="reveal-hero-text tw-bg-green-200 tw-p-2 tw-px-6 tw-mb-3">Prabhat Gupta</span>
+                        <br class="tw-block" />
+                        <span class="reveal-hero-text tw-block tw-w-full tw-mt-2">Software Engineer</span>
+                    </div>
+                    <div class="reveal-hero-text tw-mt-6 tw-max-w-[550px] tw-p-2 tw-text-lg tw-leading-relaxed tw-text-gray-700 max-lg:tw-max-w-full max-lg:tw-text-base">
+                        Software engineer with experience building web applications, APIs, and distributed systems. Passionate about clean code, testing, and shipping products that scale. Replace this bio with your own.
+                    </div>
+                    <div class="reveal-hero-text tw-mt-8 tw-flex tw-place-items-center tw-gap-4 tw-overflow-hidden tw-p-2 tw-flex-wrap">
+                        <a href="mailto:you@example.com" aria-label="Contact" class="tw-flex tw-h-[40px] tw-place-items-center tw-gap-2 tw-rounded-full tw-border-[1px] tw-border-solid tw-border-black tw-bg-white tw-p-1 tw-pl-4 tw-text-black tw-transition-colors tw-duration-[0.5s] hover:tw-bg-black hover:tw-text-white">
+                            <span>Get in touch</span>
+                            <div class="tw-flex tw-h-[30px] tw-w-[30px] tw-place-content-center tw-place-items-center tw-rounded-full tw-bg-black tw-font-semibold tw-text-white"><i class="bi bi-arrow-up-right"></i></div>
+                        </a>
+                        <a href="https://drive.google.com/uc?export=download&id=1Ni3U70UCSXa8yPfABtg26pnRxYG2pYay" download="PKG_Template_Resume.pdf" aria-label="Download resume" class="tw-flex tw-h-[40px] tw-place-items-center tw-gap-2 tw-rounded-full tw-border-[1px] tw-border-solid tw-border-black tw-bg-black tw-p-1 tw-pl-4 tw-text-white tw-transition-colors tw-duration-[0.5s] hover:tw-bg-white hover:tw-text-black">
+                            <span>Download Resume</span>
+                            <div class="tw-flex tw-h-[30px] tw-w-[30px] tw-place-content-center tw-place-items-center tw-rounded-full tw-bg-white tw-font-semibold tw-text-black"><i class="bi bi-download"></i></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="tw-flex tw-w-full tw-max-w-[40%] tw-place-content-center tw-place-items-center tw-overflow-hidden max-lg:tw-max-w-[unset] max-lg:tw-mt-8">
+                    <div class="tw-relative tw-flex tw-max-h-[580px] tw-min-h-[450px] tw-min-w-[350px] tw-max-w-[500px] tw-overflow-hidden max-lg:tw-h-fit max-lg:tw-max-h-[400px] max-lg:tw-min-h-[300px] max-lg:tw-w-[300px] max-lg:tw-min-w-[300px]">
+                        <img src="assets/images/people/dp.png" alt="Your photo - replace with your own image" class="reveal-hero-img tw-z-[1] tw-h-full tw-w-full tw-object-contain tw-rounded-lg tw-shadow-2xl" loading="eager" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="work" class="tw-relative tw-flex tw-min-h-[100vh] tw-w-full tw-max-w-[100vw] tw-flex-col tw-place-items-center tw-p-6 tw-py-5 tw-mt-16" style="padding-bottom: 3rem; overflow-x: hidden; scroll-margin-top: 100px;">
+            <h3 class="reveal-up tw-text-6xl tw-font-bold tw-text-gray-900 max-lg:tw-text-4xl tw-mb-2">Work Experience</h3>
+            <p class="reveal-up tw-text-lg tw-text-gray-600 tw-mb-6">7+ years in AI research, inference infrastructure &amp; distributed systems</p>
+            <div class="reveal-up tw-my-2 tw-h-[1px] tw-w-[80%] tw-bg-black"></div>
+
+            <div class="work-timeline tw-mt-12 tw-w-full tw-max-w-3xl tw-pl-2 sm:tw-pl-0">
+                <div class="work-timeline-line" aria-hidden="true"></div>
+
+                <div class="work-timeline-item">
+                    <div class="work-timeline-dot"></div>
+                    <div class="work-timeline-content">
+                        <span class="tw-text-sm tw-font-semibold tw-text-gray-500">1.8 years · San Francisco, CA</span>
+                        <h4 class="tw-text-xl tw-font-bold tw-text-gray-900 tw-mt-0.5">Staff AI Researcher · <a href="https://www.anthropic.com/" target="_blank" rel="noopener noreferrer" class="company-link">Anthropic<span class="link-emoji" aria-hidden="true">🔗</span></a></h4>
+                        <div class="tw-mt-3 tw-rounded-lg tw-bg-gray-100 tw-p-4 tw-border tw-border-gray-200">
+                            <ul class="tw-space-y-1.5 tw-text-gray-600 tw-text-sm tw-leading-relaxed tw-list-disc tw-pl-4">
+                                <li><strong>Architected and deployed</strong> large-scale inference infrastructure serving Claude API, handling <strong>billions of tokens daily</strong> with sub-200ms latency.</li>
+                                <li>Designed and implemented <strong>distributed model serving system</strong> using Ray and custom orchestration, achieving 99.99% uptime.</li>
+                                <li>Built real-time monitoring and observability platform tracking <strong>1000+ metrics</strong> across inference clusters using Prometheus and Grafana.</li>
+                                <li>Optimized CUDA kernels and memory management for transformer models, <strong>reducing inference costs by 40%</strong>.</li>
+                                <li>Developed safety evaluation pipelines for constitutional AI, processing <strong>millions of model outputs</strong> for alignment testing.</li>
+                                <li>Collaborated with research team to deploy experimental features, enabling <strong>rapid prototyping and A/B testing</strong> of new capabilities.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-timeline-item">
+                    <div class="work-timeline-dot"></div>
+                    <div class="work-timeline-content">
+                        <span class="tw-text-sm tw-font-semibold tw-text-gray-500">2.2 years · San Francisco, CA</span>
+                        <h4 class="tw-text-xl tw-font-bold tw-text-gray-900 tw-mt-0.5">Senior AI Researcher · <a href="https://www.openai.com/" target="_blank" rel="noopener noreferrer" class="company-link">OpenAI<span class="link-emoji" aria-hidden="true">🔗</span></a></h4>
+                        <div class="tw-mt-3 tw-rounded-lg tw-bg-gray-100 tw-p-4 tw-border tw-border-gray-200">
+                            <ul class="tw-space-y-1.5 tw-text-gray-600 tw-text-sm tw-leading-relaxed tw-list-disc tw-pl-4">
+                                <li>Engineered high-throughput <strong>API gateway and rate limiting system</strong> serving GPT models to <strong>10M+ developers</strong> globally.</li>
+                                <li>Built scalable embedding and fine-tuning infrastructure supporting <strong>custom model training</strong> for enterprise customers.</li>
+                                <li>Implemented distributed caching layer using Redis and Memcached, <strong>reducing API latency by 60%</strong> and improving user experience.</li>
+                                <li>Developed automated deployment pipelines for model updates, enabling <strong>zero-downtime releases</strong> across production clusters.</li>
+                                <li>Created comprehensive logging and tracing system for debugging LLM behaviors, processing <strong>100TB+ logs monthly</strong>.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-timeline-item">
+                    <div class="work-timeline-dot"></div>
+                    <div class="work-timeline-content">
+                        <span class="tw-text-sm tw-font-semibold tw-text-gray-500">2.0 years · Mountain View, CA</span>
+                        <h4 class="tw-text-xl tw-font-bold tw-text-gray-900 tw-mt-0.5">Software Engineer II · <a href="https://www.google.com/" target="_blank" rel="noopener noreferrer" class="company-link">Google<span class="link-emoji" aria-hidden="true">🔗</span></a></h4>
+                        <div class="tw-mt-3 tw-rounded-lg tw-bg-gray-100 tw-p-4 tw-border tw-border-gray-200">
+                            <ul class="tw-space-y-1.5 tw-text-gray-600 tw-text-sm tw-leading-relaxed tw-list-disc tw-pl-4">
+                                <li>Developed and maintained <strong>distributed storage systems</strong> for Google Cloud Platform, serving petabytes of data with strong consistency.</li>
+                                <li>Built real-time data processing pipelines using Dataflow and BigQuery, enabling <strong>analytics on 500M+ events per day</strong>.</li>
+                                <li>Implemented advanced caching strategies and CDN optimizations, <strong>improving content delivery speed by 70%</strong>.</li>
+                                <li>Designed monitoring dashboards and alerting systems, reducing <strong>mean time to detection (MTTD) by 80%</strong>.</li>
+                                <li>Collaborated with SRE teams to improve system reliability, achieving <strong>99.95% uptime</strong> for critical services.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work-timeline-item">
+                    <div class="work-timeline-dot"></div>
+                    <div class="work-timeline-content">
+                        <span class="tw-text-sm tw-font-semibold tw-text-gray-500">1.3 years · Seattle, WA</span>
+                        <h4 class="tw-text-xl tw-font-bold tw-text-gray-900 tw-mt-0.5">Software Development Engineer · <a href="https://www.amazon.com/" target="_blank" rel="noopener noreferrer" class="company-link">Amazon<span class="link-emoji" aria-hidden="true">🔗</span></a></h4>
+                        <div class="tw-mt-3 tw-rounded-lg tw-bg-gray-100 tw-p-4 tw-border tw-border-gray-200">
+                            <ul class="tw-space-y-1.5 tw-text-gray-600 tw-text-sm tw-leading-relaxed tw-list-disc tw-pl-4">
+                                <li>Designed and implemented <strong>RESTful APIs</strong> serving millions of requests daily for AWS management console features.</li>
+                                <li>Built distributed tracing system using X-Ray, enabling <strong>real-time monitoring and debugging</strong> across microservices.</li>
+                                <li>Developed automated testing framework using Pytest and Selenium, <strong>improving test coverage by 45%</strong>.</li>
+                                <li>Optimized <strong>DynamoDB queries and data modeling</strong>, reducing read/write costs by 40% while maintaining performance.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="blogs" class="tw-relative tw-flex tw-min-h-[50vh] tw-w-full tw-max-w-[100vw] tw-flex-col tw-place-items-center tw-overflow-hidden tw-p-6 tw-py-5 tw-mt-20 tw-px-[5%]" style="padding-bottom: 3rem; scroll-margin-top: 100px;">
+            <h3 class="reveal-up tw-text-6xl tw-font-bold tw-text-gray-900 max-lg:tw-text-4xl tw-mb-6">Blogs</h3>
+            <p class="reveal-up tw-text-lg tw-text-gray-600 tw-mb-6">Thoughts on software engineering, system design, and best practices.</p>
+            <div class="reveal-up tw-my-6 tw-h-[1px] tw-w-full tw-bg-black"></div>
+            <div class="tw-mt-3 tw-w-full tw-flex tw-flex-col tw-gap-6">
+                <a href="blog/sample-post-1.html" class="blog-card-link group reveal-up project-card-3d tw-flex tw-w-full tw-rounded-xl tw-bg-white tw-border tw-border-gray-200 tw-no-underline tw-text-inherit tw-overflow-hidden tw-block hover:tw-border-gray-300">
+                    <div class="tw-flex tw-w-full tw-min-h-0">
+                        <div class="blog-card-accent tw-flex-shrink-0 tw-w-1.5 tw-rounded-l-xl" aria-hidden="true"></div>
+                        <div class="tw-flex-1 tw-flex tw-flex-col tw-gap-2" style="padding: 0.5rem;">
+                            <h3 class="blog-card-title tw-text-lg tw-font-bold tw-text-gray-900 tw-m-0 tw-leading-snug tw-tracking-tight tw-py-1.5 tw-px-2.5 tw-rounded tw-inline-block">Writing Clean Code <span class="link-emoji" aria-hidden="true">🔗</span></h3>
+                            <p style="padding-left: 1rem;" class="tw-leading-snug tw-m-0 tw-text-sm">Principles and practices for readable, maintainable code. Naming, functions, comments, and formatting that scale with your team.</p>
+                            <div style="padding-left: 1rem;" class="blog-card-meta tw-flex tw-flex-wrap tw-items-center tw-gap-2 tw-mt-0">
+                                <time datetime="2025-01-15" class="tw-text-gray-500" style="color: #858a91 !important;">Jan 15, 2025</time>
+                                <span aria-hidden="true">·</span>
+                                <span style="color: #858a91 !important;" class="tw-text-gray-500">~5 min read</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="blog/sample-post-2.html" class="blog-card-link group reveal-up project-card-3d tw-flex tw-w-full tw-rounded-xl tw-bg-white tw-border tw-border-gray-200 tw-no-underline tw-text-inherit tw-overflow-hidden tw-block hover:tw-border-gray-300">
+                    <div class="tw-flex tw-w-full tw-min-h-0">
+                        <div class="blog-card-accent tw-flex-shrink-0 tw-w-1.5 tw-rounded-l-xl" aria-hidden="true"></div>
+                        <div class="tw-flex-1 tw-flex tw-flex-col tw-gap-2" style="padding: 0.5rem;">
+                            <h3 class="blog-card-title tw-text-lg tw-font-bold tw-text-gray-900 tw-m-0 tw-leading-snug tw-tracking-tight tw-py-1.5 tw-px-2.5 tw-rounded tw-inline-block">Introduction to System Design <span class="link-emoji" aria-hidden="true">🔗</span></h3>
+                            <p style="padding-left: 1rem;" class="tw-leading-snug tw-m-0 tw-text-sm">Scaling from a single server to distributed systems. Load balancing, caching, databases, and trade-offs.</p>
+                            <div style="padding-left: 1rem;" class="blog-card-meta tw-flex tw-flex-wrap tw-items-center tw-gap-2 tw-mt-0">
+                                <time datetime="2025-01-20" class="tw-text-gray-500" style="color: #858a91 !important;">Jan 20, 2025</time>
+                                <span aria-hidden="true">·</span>
+                                <span style="color: #858a91 !important;" class="tw-text-gray-500">~8 min read</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="tw-relative tw-flex tw-min-h-[80vh] tw-w-full tw-max-w-[100vw] tw-flex-col tw-place-content-center tw-place-items-center tw-overflow-hidden tw-p-6 tw-mt-20">
+            <div class="tw-mt-8 tw-flex tw-flex-col tw-place-items-center tw-gap-5">
+                <div class="reveal-up tw-mt-5 tw-flex tw-flex-col tw-gap-3 tw-text-center">
+                    <h2 class="tw-text-4xl tw-font-bold tw-text-gray-900 tw-mb-8">Technical Expertise</h2>
+                </div>
+                <div class="tw-mt-10 tw-space-y-8 max-md:tw-flex-col lg:tw-grid lg:tw-grid-cols-2 tw-flex tw-flex-wrap tw-justify-center" style="gap: 1rem;">
+                    <div class="reveal-up tw-flex tw-min-h-[150px] tw-w-[450px] max-lg:tw-w-full max-lg:tw-max-w-[400px] tw-flex-col tw-gap-2 tw-p-4">
+                        <div class="tw-flex tw-gap-2 tw-items-center">
+                            <i class="bi bi-code-slash tw-text-2xl tw-text-gray-800"></i>
+                            <h3 class="tw-text-2xl tw-font-bold tw-text-gray-900">Backend & APIs</h3>
+                        </div>
+                        <div class="tw-text-gray-600 tw-leading-relaxed tw-text-base">REST and GraphQL APIs, service-oriented architecture, message queues. Languages: Java, Python, Go, or Node.js depending on your stack.</div>
+                    </div>
+                    <div class="reveal-up tw-flex tw-min-h-[150px] tw-w-[450px] max-lg:tw-w-full max-lg:tw-max-w-[400px] tw-flex-col tw-gap-2 tw-p-4" style="margin-top: 0 !important;">
+                        <div class="tw-flex tw-gap-2 tw-items-center">
+                            <i class="bi bi-window tw-text-2xl tw-text-gray-800"></i>
+                            <h3 class="tw-text-2xl tw-font-bold tw-text-gray-900">Frontend</h3>
+                        </div>
+                        <div class="tw-text-gray-600 tw-leading-relaxed tw-text-base">React, Vue, or similar. Responsive UI, state management, and performance. Replace with your preferred stack.</div>
+                    </div>
+                    <div class="reveal-up tw-flex tw-min-h-[150px] tw-w-[450px] max-lg:tw-w-full max-lg:tw-max-w-[400px] tw-flex-col tw-gap-2 tw-p-4">
+                        <div class="tw-flex tw-gap-2 tw-items-center">
+                            <i class="bi bi-database tw-text-2xl tw-text-gray-800"></i>
+                            <h3 class="tw-text-2xl tw-font-bold tw-text-gray-900">Databases</h3>
+                        </div>
+                        <div class="tw-text-gray-600 tw-leading-relaxed tw-text-base">SQL and NoSQL. Schema design, indexing, and query optimization. PostgreSQL, MySQL, MongoDB, Redis.</div>
+                    </div>
+                    <div class="reveal-up tw-flex tw-min-h-[150px] tw-w-[450px] max-lg:tw-w-full max-lg:tw-max-w-[400px] tw-flex-col tw-gap-2 tw-p-4">
+                        <div class="tw-flex tw-gap-2 tw-items-center">
+                            <i class="bi bi-gear tw-text-2xl tw-text-gray-800"></i>
+                            <h3 class="tw-text-2xl tw-font-bold tw-text-gray-900">DevOps & Tooling</h3>
+                        </div>
+                        <div class="tw-text-gray-600 tw-leading-relaxed tw-text-base">CI/CD, Docker, Kubernetes, monitoring. GitHub Actions, Jenkins, or similar. Cloud-native deployment.</div>
+                    </div>
+                    <div class="reveal-up tw-flex tw-min-h-[150px] tw-w-[450px] max-lg:tw-w-full max-lg:tw-max-w-[400px] tw-flex-col tw-gap-2 tw-p-4">
+                        <div class="tw-flex tw-gap-2 tw-items-center">
+                            <i class="bi bi-bug tw-text-2xl tw-text-gray-800"></i>
+                            <h3 class="tw-text-2xl tw-font-bold tw-text-gray-900">Testing & Quality</h3>
+                        </div>
+                        <div class="tw-text-gray-600 tw-leading-relaxed tw-text-base">Unit, integration, and e2e tests. TDD, code coverage, and maintaining quality at scale.</div>
+                    </div>
+                    <div class="reveal-up tw-flex tw-min-h-[150px] tw-w-[450px] max-lg:tw-w-full max-lg:tw-max-w-[400px] tw-flex-col tw-gap-2 tw-p-4">
+                        <div class="tw-flex tw-gap-2 tw-items-center">
+                            <i class="bi bi-cloud tw-text-2xl tw-text-gray-800"></i>
+                            <h3 class="tw-text-2xl tw-font-bold tw-text-gray-900">Cloud</h3>
+                        </div>
+                        <div class="tw-text-gray-600 tw-leading-relaxed tw-text-base">AWS, GCP, or Azure. Compute, storage, serverless. Replace with your experience.</div>
+                    </div>
+                </div>
+                <a href="mailto:you@example.com" aria-label="Contact" class="reveal-up tw-mt-12 tw-flex tw-h-[40px] tw-place-items-center tw-gap-2 tw-rounded-full tw-bg-black tw-p-1 tw-pl-4 tw-text-white">
+                    <span>Get in touch</span>
+                    <div class="tw-flex tw-h-[30px] tw-w-[30px] tw-place-content-center tw-place-items-center tw-rounded-full tw-bg-white tw-font-semibold tw-text-black"><i class="bi bi-arrow-up-right"></i></div>
+                </a>
+            </div>
+        </section>
+
+        <section id="projects" class="tw-relative tw-flex tw-min-h-[80vh] tw-w-full tw-max-w-[100vw] tw-flex-col tw-place-items-center tw-overflow-hidden tw-p-6 tw-py-5 tw-mt-20" style="padding-bottom: 3rem; scroll-margin-top: 100px;">
+            <h3 class="reveal-up tw-text-6xl tw-font-bold tw-text-gray-900 max-lg:tw-text-4xl tw-mb-6">Projects</h3>
+            <div class="reveal-up tw-my-6 tw-h-[1px] tw-w-[80%] tw-bg-black"></div>
+            <div class="tw-mt-12 tw-gap-10 tw-space-y-8 max-md:tw-flex-col lg:tw-grid lg:tw-grid-cols-2 tw-flex tw-flex-wrap tw-justify-center">
+                <div class="reveal-up project-card-3d tw-flex tw-flex-col tw-justify-between tw-h-[550px] tw-w-[450px] max-lg:tw-w-full max-lg:tw-max-w-[400px] tw-gap-2 tw-rounded-lg tw-bg-[#f3f3f3b4] tw-p-4 tw-overflow-hidden">
+                    <div class="project-image-rounded tw-h-[300px] tw-w-full tw-overflow-hidden tw-bg-gradient-to-br tw-from-blue-500 tw-to-purple-600 tw-flex tw-items-center tw-justify-center tw-flex-shrink-0">
+                        <span class="tw-text-white tw-text-2xl tw-font-semibold">Project 1</span>
+                    </div>
+                    <div class="tw-flex tw-flex-col tw-gap-2 tw-justify-between tw-h-[calc(550px-300px-2rem)]">
+                        <div class="tw-flex tw-flex-col tw-gap-2">
+                            <h3 class="tw-text-xl tw-font-semibold tw-text-gray-900">REST API / Backend Service</h3>
+                            <p class="tw-text-gray-600 tw-leading-relaxed tw-mt-2">A sample backend or API project. Add your own description, tech stack, and link to repo or demo.</p>
+                        </div>
+                        <div class="tw-flex tw-gap-4 tw-flex-shrink-0">
+                            <a href="https://github.com/yourusername" target="_blank" rel="noopener" class="tw-text-black tw-font-medium hover:tw-text-gray-600 tw-transition-colors"><span style="text-decoration: underline; text-underline-offset: 3px;">GitHub</span> <i class="bi bi-arrow-up-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://github.com/yourusername" target="_blank" rel="noopener" class="reveal-up project-card-3d tw-flex tw-flex-col tw-justify-between tw-h-[550px] tw-w-[450px] max-lg:tw-w-full max-lg:tw-max-w-[400px] tw-gap-2 tw-overflow-hidden tw-rounded-lg tw-bg-[#edecec79] tw-p-4" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0%); opacity: 1; margin-top: 0px;">
+                    <div class="project-image-rounded tw-h-[300px] tw-w-full tw-overflow-hidden tw-flex-shrink-0 tw-flex tw-items-center tw-justify-center tw-bg-gradient-to-br tw-from-blue-500 tw-to-purple-600">
+                        <span class="tw-text-white tw-text-2xl tw-font-semibold">Project 2</span>
+                    </div>
+                    <div class="tw-flex tw-flex-col tw-gap-2 tw-justify-between tw-h-[calc(550px-300px-2rem)]">
+                        <div class="tw-flex tw-flex-col tw-gap-2">
+                            <h3 class="tw-text-2xl tw-font-semibold max-md:tw-text-xl tw-text-gray-900">Full-Stack App</h3>
+                            <p class="tw-mt-2 tw-text-gray-600 tw-leading-relaxed">Example full-stack application. Replace with your project: frontend, backend, and what you learned.</p>
+                        </div>
+                        <span class="tw-flex-shrink-0">View on <span style="text-decoration: underline; text-underline-offset: 3px;">GitHub</span> →</span>
+                    </div>
+                </a>
+                
+                <a href="blog/sample-post-1.html" class="reveal-up project-card-3d tw-flex tw-flex-col tw-justify-between tw-h-[550px] tw-w-[450px] max-lg:tw-w-full max-lg:tw-max-w-[400px] tw-gap-2 tw-overflow-hidden tw-rounded-lg tw-bg-[#edecec79] tw-p-4 tw-no-underline tw-text-inherit">
+                    <div class="project-image-rounded tw-h-[300px] tw-w-full tw-overflow-hidden tw-flex-shrink-0 tw-flex tw-items-center tw-justify-center tw-bg-gradient-to-br tw-from-blue-500 tw-to-purple-600">
+                        <span class="tw-text-white tw-text-2xl tw-font-semibold">Blog</span>
+                    </div>
+                    <div class="tw-flex tw-flex-col tw-gap-2 tw-justify-between tw-h-[calc(550px-300px-2rem)]">
+                        <div class="tw-flex tw-flex-col tw-gap-2">
+                            <h3 class="tw-text-2xl tw-font-semibold max-md:tw-text-xl tw-text-gray-900">Writing Clean Code</h3>
+                            <p class="tw-mt-2 tw-text-gray-600 tw-leading-relaxed">Principles and practices for readable, maintainable code. Naming, functions, comments, and formatting that scale with your team.</p>
+                        </div>
+                        <span class="tw-flex-shrink-0">Read <span style="text-decoration: underline; text-underline-offset: 3px;">Blog</span> →</span>
+                    </div>
+                </a>
+                <a href="blog/sample-post-2.html" class="reveal-up project-card-3d tw-flex tw-flex-col tw-justify-between tw-h-[550px] tw-w-[450px] max-lg:tw-w-full max-lg:tw-max-w-[400px] tw-gap-2 tw-overflow-hidden tw-rounded-lg tw-bg-[#edecec79] tw-p-4 tw-no-underline tw-text-inherit">
+                    <div class="project-image-rounded tw-h-[300px] tw-w-full tw-overflow-hidden tw-flex-shrink-0 tw-flex tw-items-center tw-justify-center tw-bg-black">
+                        <span class="tw-text-white tw-text-2xl tw-font-semibold">Blog</span>
+                    </div>
+                    <div class="tw-flex tw-flex-col tw-gap-2 tw-justify-between tw-h-[calc(550px-300px-2rem)]">
+                        <div class="tw-flex tw-flex-col tw-gap-2">
+                            <h3 class="tw-text-2xl tw-font-semibold max-md:tw-text-xl tw-text-gray-900">Introduction to System Design</h3>
+                            <p class="tw-mt-2 tw-text-gray-600 tw-leading-relaxed">Scaling from a single server to distributed systems. Load balancing, caching, databases, and trade-offs.</p>
+                        </div>
+                        <span class="tw-flex-shrink-0">Read <span style="text-decoration: underline; text-underline-offset: 3px;">Blog</span> →</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <footer class="tw-flex tw-w-full tw-place-content-center tw-place-items-center tw-gap-3 tw-text-black" style="min-height: 40px; padding: 1rem 10% 2rem 10%; margin-top: 2rem;">
+            <p class="tw-text-lg tw-text-gray-700">
+                💡 Change or remove this line - Template provide with ❤️ by <a href="https://www.linkedin.com/in/prabhatkgupta-kgp168/" target="_blank" style="text-decoration: underline; text-underline-offset: 3px; color: inherit;">Prabhat</a>. Share template with your friends and star the Github repository
+            </p>
+        </footer>
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js" integrity="sha512-B1lby8cGcAUU3GR+Fd809/ZxgHbfwJMp0jLTVfHiArTuUt++VqSlJpaJvhNtRf3NERaxDNmmxkdx2o+aHd4bvw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/ScrollTrigger.min.js" integrity="sha512-AY2+JxnBETJ0wcXnLPCcZJIJx0eimyhz3OJ55k2Jx4RtYC+XdIi2VtJQ+tP3BaTst4otlGG1TtPJ9fKrAUnRdQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./index.js"></script>
+</html>

@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "title": "Your Name - Software Engineer",
+    "description": "Software Engineer building scalable systems and clean code. Replace with your own description.",
+    "resumeUrl": "https://drive.google.com/uc?export=download&id=1Ni3U70UCSXa8yPfABtg26pnRxYG2pYay"
+  },
+  "hero": {
+    "name": "Your Name",
+    "tagline": "Software Engineer",
+    "bio": "Software engineer with experience building web applications, APIs, and distributed systems. Passionate about clean code, testing, and shipping products that scale. Replace this bio with your own."
+  },
+  "work": [
+    {
+      "company": "Google",
+      "companyUrl": "https://google.com",
+      "role": "Senior Software Engineer",
+      "tenure": "2 years",
+      "location": "Seattle, WA",
+      "bullets": [
+        "Designed and shipped APIs serving millions of requests per day with <100ms p99 latency.",
+        "Led migration of legacy services to microservices; reduced deployment time by 40%.",
+        "Mentored 3 engineers and established code review and testing best practices.",
+        "Built internal tooling for monitoring and alerting used across 5+ teams."
+      ]
+    },
+    {
+      "company": "Microsoft",
+      "companyUrl": "https://microsoft.com",
+      "role": "Software Engineer",
+      "tenure": "2.5 years",
+      "location": "Redmond, WA",
+      "bullets": [
+        "Developed features for a cloud product used by enterprise customers; improved onboarding completion by 25%.",
+        "Implemented automated testing pipeline reducing flaky tests by 60%.",
+        "Collaborated with PM and design to ship user-facing features on a quarterly release cycle.",
+        "Optimized database queries and caching layer, cutting page load time by 30%."
+      ]
+    },
+    {
+      "company": "Amazon",
+      "companyUrl": "https://amazon.com",
+      "role": "Software Development Engineer",
+      "tenure": "1.5 years",
+      "location": "Seattle, WA",
+      "bullets": [
+        "Built and maintained services for a high-traffic e-commerce platform.",
+        "Participated in on-call rotation and improved runbooks; reduced incident resolution time by 20%.",
+        "Wrote design docs and led technical discussions for a new internal API.",
+        "Contributed to open-source libraries used by the team for configuration and logging."
+      ]
+    }
+  ],
+  "blogs": [
+    {
+      "slug": "sample-post-1",
+      "href": "blog/sample-post-1.html",
+      "title": "Writing Clean Code",
+      "excerpt": "Principles and practices for readable, maintainable code. Naming, functions, comments, and formatting that scale with your team.",
+      "date": "2025-01-15",
+      "readTime": "~5 min read"
+    },
+    {
+      "slug": "sample-post-2",
+      "href": "blog/sample-post-2.html",
+      "title": "Introduction to System Design",
+      "excerpt": "Scaling from a single server to distributed systems. Load balancing, caching, databases, and trade-offs.",
+      "date": "2025-01-20",
+      "readTime": "~8 min read"
+    }
+  ],
+  "expertise": [
+    { "icon": "bi-code-slash", "title": "Backend & APIs", "description": "REST and GraphQL APIs, service-oriented architecture, message queues. Languages: Java, Python, Go, or Node.js depending on your stack." },
+    { "icon": "bi-window", "title": "Frontend", "description": "React, Vue, or similar. Responsive UI, state management, and performance. Replace with your preferred stack." },
+    { "icon": "bi-database", "title": "Databases", "description": "SQL and NoSQL. Schema design, indexing, and query optimization. PostgreSQL, MySQL, MongoDB, Redis." },
+    { "icon": "bi-gear", "title": "DevOps & Tooling", "description": "CI/CD, Docker, Kubernetes, monitoring. GitHub Actions, Jenkins, or similar. Cloud-native deployment." },
+    { "icon": "bi-bug", "title": "Testing & Quality", "description": "Unit, integration, and e2e tests. TDD, code coverage, and maintaining quality at scale." },
+    { "icon": "bi-cloud", "title": "Cloud", "description": "AWS, GCP, or Azure. Compute, storage, serverless. Replace with your experience." }
+  ],
+  "projects": [
+    {
+      "title": "REST API / Backend Service",
+      "description": "A sample backend or API project. Add your own description, tech stack, and link to repo or demo.",
+      "links": [{ "label": "GitHub", "url": "https://github.com/yourusername" }]
+    },
+    {
+      "title": "Full-Stack App",
+      "description": "Example full-stack application. Replace with your project: frontend, backend, and what you learned.",
+      "links": [{ "label": "GitHub", "url": "https://github.com/yourusername" }]
+    },
+    {
+      "title": "Open Source / Side Project",
+      "description": "Contribution or side project. Add link and description. Remove or duplicate cards as needed.",
+      "links": [{ "label": "More", "url": "#" }]
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+% last updated - 4/11/2025
+\documentclass[]{pkg-resume-openfont}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{graphicx}
+\usepackage{tikz}
+\newcommand{\smallarrow}{%
+  \tikz[baseline=-0.3ex]{\draw[->,line width=0.5pt] (0,0) -- (0.15,0.15);}%
+}
+\colorlet{lightyellow}{yellow!40!white}
+\newcommand{\highlightlinkblue}[1]{%
+  \fcolorbox{cyan}{white}{#1}%
+}
+
+
+\newcommand{\midsize}{\fontsize{10pt}{11pt}\selectfont}
+% Command for highlighted links with an arrow
+\newcommand{\highlightlink}[2]{%
+  \colorbox{lightyellow}{\href[pdfnewwindow=true]{#1}{\textbf{#2}}}%
+}
+
+\newcommand{\highlightlinkordinary}[1]{%
+  \colorbox{lightyellow}{{\textbf{#1}}}%
+}
+ 
+ 
+\begin{document}
+\namesection{}{PKG Template}
+{%
+  \urlstyle{same}
+  \href{mailto:johndoe@email.com}{pkg@email.com} | +91-9431582000 | 
+  \href{https://github.com/johndoe}{\highlightlinkblue{GitHub\,\smallarrow}} | 
+  \href{https://www.linkedin.com/in/johndoe/}{\highlightlinkblue{LinkedIn\,\smallarrow}}
+}
+
+
+\begin{minipage}[t]{\textwidth}
+
+\runsubsection{\textbf{Professional Summary:}}
+\vspace{\topsep}
+
+{\midsize
+Experienced Software Engineer with 7+ years of expertise in building scalable distributed systems, cloud-native applications, and full-stack solutions. Proven track record of leading engineering teams, architecting complex systems, and delivering high-impact products at leading tech companies. 
+Strong background in microservices architecture, DevOps practices, and agile development methodologies with focus on performance optimization and system reliability.
+}
+
+\sectionsep
+
+
+\section{Work Experience}
+\runsubsection{\highlightlink{https://www.anthropic.com/}{{\textbf{Anthropic\,\smallarrow}}}}
+\descript{| Staff AI Researcher}
+\location{Experience: 1.8 years | San Francisco, CA}
+\vspace{\topsep}\vspace{\topsep}
+\begin{tightemize}
+\item \textbf{Architected and deployed} large-scale inference infrastructure serving Claude API, handling \textbf{billions of tokens daily} with sub-200ms latency.
+\item Designed and implemented \textbf{distributed model serving system} using Ray and custom orchestration, achieving 99.99\% uptime.
+\item Built real-time monitoring and observability platform tracking \textbf{1000+ metrics} across inference clusters using Prometheus and Grafana.
+\item Optimized CUDA kernels and memory management for transformer models, \textbf{reducing inference costs by 40\%}.
+\item Developed safety evaluation pipelines for constitutional AI, processing \textbf{millions of model outputs} for alignment testing.
+\item Collaborated with research team to deploy experimental features, enabling \textbf{rapid prototyping and A/B testing} of new capabilities.
+\end{tightemize}
+
+\vspace{\topsep}\vspace{\topsep}
+\runsubsection{\highlightlink{https://www.openai.com/}{{\textbf{OpenAI\,\smallarrow}}}}
+\descript{| Senior AI Researcher }
+\location{Experience: 2.2 years | San Francisco, CA}
+\vspace{\topsep}
+\begin{tightemize}
+\item Engineered high-throughput \textbf{API gateway and rate limiting system} serving GPT models to \textbf{10M+ developers} globally.
+\item Built scalable embedding and fine-tuning infrastructure supporting \textbf{custom model training} for enterprise customers.
+\item Implemented distributed caching layer using Redis and Memcached, \textbf{reducing API latency by 60\%} and improving user experience.
+\item Developed automated deployment pipelines for model updates, enabling \textbf{zero-downtime releases} across production clusters.
+\item Created comprehensive logging and tracing system for debugging LLM behaviors, processing \textbf{100TB+ logs monthly}.
+\end{tightemize}
+
+\vspace{\topsep}\vspace{\topsep}
+\runsubsection{\highlightlink{https://www.google.com/}{{\textbf{Google\,\smallarrow}}}}
+\descript{| Software Engineer II}
+\location{Experience: 2.0 years | Mountain View, CA}
+\vspace{\topsep}
+\begin{tightemize}
+\item Developed and maintained \textbf{distributed storage systems} for Google Cloud Platform, serving petabytes of data with strong consistency.
+\item Built real-time data processing pipelines using Dataflow and BigQuery, enabling \textbf{analytics on 500M+ events per day}.
+\item Implemented advanced caching strategies and CDN optimizations, \textbf{improving content delivery speed by 70\%}.
+\item Designed monitoring dashboards and alerting systems, reducing \textbf{mean time to detection (MTTD) by 80\%}.
+\item Collaborated with SRE teams to improve system reliability, achieving \textbf{99.95\% uptime} for critical services.
+\end{tightemize}
+
+\vspace{\topsep}\vspace{\topsep}
+\runsubsection{\highlightlink{https://www.amazon.com/}{{\textbf{Amazon\,\smallarrow}}}}
+\descript{| Software Development Engineer}
+\location{Experience: 1.3 Years | Seattle, WA}
+\vspace{\topsep}
+\begin{tightemize}
+\item Designed and implemented \textbf{RESTful APIs} serving millions of requests daily for AWS management console features.
+\item Built distributed tracing system using X-Ray, enabling \textbf{real-time monitoring and debugging} across microservices.
+\item Developed automated testing framework using Pytest and Selenium, \textbf{improving test coverage by 45\%}.
+\item Optimized \textbf{DynamoDB queries and data modeling}, reducing read/write costs by 40\% while maintaining performance.
+\end{tightemize}
+
+
+
+
+
+\vspace{\topsep}
+
+\sectionsep
+\end{minipage} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Personal Projects}
+\vspace{\topsep}
+
+% \runsubsection{\highlightlink{https://sprinklr.com/}{{\textbf{Sprinklr\,\smallarrow}}}}
+\runsubsection{\highlightlink{https://github.com/kubernetes/kubernetes}{{Kubernetes}}}
+\descript{| Container Orchestration}
+\vspace{\topsep}
+\begin{tightemize}
+\item Contributed to open-source Kubernetes project with \textbf{multiple merged PRs} in core components.
+\item Implemented custom controllers and operators for automating complex deployment workflows.
+\item Active community member participating in SIG discussions and code reviews | \href{https://github.com/kubernetes/kubernetes}{\textbf{\highlightlinkblue{LINK}\,\smallarrow}}
+\end{tightemize}
+\sectionsep
+
+\runsubsection{\highlightlink{https://github.com/tensorflow/tensorflow}{{TensorFlow}}}
+\descript{| Machine Learning Framework}
+\vspace{\topsep}
+\begin{tightemize}
+\item Contributed bug fixes and performance improvements to TensorFlow core libraries.
+\item Developed custom training loops and model architectures for computer vision tasks.
+\item Created tutorials and documentation helping \textbf{1000+ developers} get started with ML | \href{https://github.com/tensorflow/tensorflow}{\textbf{\highlightlinkblue{LINK}\,\smallarrow}}
+\end{tightemize}
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+\descript{Stanford University}
+\begin{tightemize}
+\vspace{\topsep}
+\item[] M.S. | Computer Science
+\item[] 2015 - 2017 | GPA: \textbf{3.9/4.0}
+\end{tightemize}
+\vspace{\topsep}
+\descript{University of California, Berkeley}
+\begin{tightemize}
+\item[] B.S. | Computer Science \& Engineering
+\item[] 2011 - 2015 | GPA: \textbf{3.8/4.0}
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Technical Skills} 
+\vspace{\topsep}\vspace{\topsep}
+\begin{tightemize}
+\item \textbf{Languages:} Python, Java, JavaScript, TypeScript, Go, C++, SQL
+\item \textbf{Frameworks:} React, Node.js, Spring Boot, Django, Flask, Express.js
+\item \textbf{DevOps:} Docker, Kubernetes, Jenkins, GitLab CI, Terraform, Ansible
+\item \textbf{Cloud:} AWS (EC2, S3, Lambda, RDS), Google Cloud Platform, Azure
+\item \textbf{Databases:} PostgreSQL, MySQL, MongoDB, Redis, DynamoDB, Cassandra
+\item \textbf{Tools:} Git, JIRA, Confluence, Postman, DataDog, Grafana, Prometheus
+\end{tightemize}
+\sectionsep
+
+
+\section{Soft Skills} 
+\vspace{\topsep}\vspace{\topsep}
+\begin{tightemize}
+\item \textbf{Leadership:} Team Management, Mentoring, Cross-functional Collaboration
+\item \textbf{Agile \& Project Management:} Sprint Planning, Release Planning, Retrospectives
+\item \textbf{Process \& Quality:} Code Reviews, Documentation Standards, Testing Best Practices
+\item \textbf{Communication:} Technical Presentations, Stakeholder Management, Conflict Resolution
+\end{tightemize}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     ACHIEVEMENTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \section{Achievements} 
+% \vspace{\topsep}
+% \begin{tabular}{rll}
+% 2024 & Promoted to \textbf{Senior Software Engineer}\\
+% 2023 & Received Excellence Award for Outstanding Performance\\
+% 2020 & \textbf{Winner}, Internal Hackathon\\
+% 2017 & Graduated with \textbf{GPA 3.9/4.0}\\
+% 2015 & Dean's List All Semesters\\
+% \end{tabular}
+% \sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROGRAMMING
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \vspace{\topsep}
+% \section{Competitive Programming}
+% \vspace{\topsep}
+% \begin{tightemize}
+% \item \textbf{LeetCode:} \href{https://leetcode.com/johndoe}{Max Rating 2100\,{\footnotesize$\mathbf{\nearrow}$}}
+% \item \textbf{Codeforces:} \href{https://codeforces.com/profile/johndoe}{Max Rating 1850\,{\footnotesize$\mathbf{\nearrow}$}}
+% \end{tightemize}
+% \sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     INTERESTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{\topsep}
+\section{Interests \& Hobbies}
+\vspace{\topsep}
+\begin{tightemize}
+\item \textbf{Technical:} Distributed Systems, Cloud Architecture, DevOps, System Design, Open Source
+\item \textbf{Community:} Tech meetups, mentoring students, contributing to open source projects
+\item \textbf{Personal:} Hiking, photography, reading technical blogs and research papers
+\end{tightemize}
+\sectionsep
+
+
+\vspace{\topsep}
+
+% Single row of images
+\begin{center}
+\includegraphics[width=0.25\textwidth]{images/img1.png}\hspace{0.8cm}
+\includegraphics[width=0.25\textwidth]{images/img2.png}\hspace{1.5cm}
+\includegraphics[width=0.30\textwidth]{images/img3.png}\hspace{1.5cm}
+\newline\newline
+\includegraphics[width=0.15\textwidth]{images/img5.png}\hspace{1.2cm}
+\includegraphics[width=0.25\textwidth]{images/img4.png}\hspace{1.5cm}
+\end{center}
+
+\sectionsep
+
+\end{document}
