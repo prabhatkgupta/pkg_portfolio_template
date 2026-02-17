@@ -1,6 +1,6 @@
 # Portfolio Template
 
-A single-page portfolio template for software engineers. Responsive layout with a hero section, work experience timeline, blog links, technical expertise grid, and project cards. Customize name, bio, links, and content in `index.html`.
+A single-page portfolio template for software engineers. Responsive layout with an about section, work experience timeline, blog links, technical expertise grid, and project cards. Customize name, bio, links, and content in `index.html`.
 
 ## Quick start
 
@@ -8,7 +8,7 @@ Open `index.html` in a browser or serve the folder with any static server. No bu
 
 ## What’s included
 
-- **Hero** — Name, title, short bio, photo placeholder, CTA buttons (contact, resume).
+- **About** — Name, title, short bio, photo placeholder, CTA buttons (contact, resume).
 - **Work experience** — Vertical timeline with company, role, duration, and bullet points.
 - **Blogs** — List of blog posts with titles, excerpts, and links to `blog/` pages.
 - **Technical expertise** — Grid of skills (e.g. Backend, Frontend, Databases, DevOps, Testing, Cloud).
@@ -21,9 +21,9 @@ Replace placeholder text, profile image (`assets/images/people/dp.png`), and soc
 
 Screenshots below follow the page from top to bottom.
 
-**1. Hero — name, title, bio, and CTAs**
+**1. About — name, title, bio, and CTAs**
 
-![Hero section](assets/images/home/image1.png)
+![About section](assets/images/home/image1.png)
 
 **2. Work experience timeline**
 
