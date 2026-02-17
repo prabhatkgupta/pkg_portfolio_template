@@ -61,3 +61,7 @@ portfolio-template/
 - Plain HTML, CSS (Tailwind-style utility classes), minimal JS.
 - GSAP + ScrollTrigger for scroll-based animations.
 - Bootstrap Icons for icons.
+
+---
+
+If this template helped you, please [star the repository](https://github.com/prabhatkgupta/pkg_portfolio_template) on GitHub and share it with friends who might find it useful.
